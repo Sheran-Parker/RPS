@@ -1,0 +1,43 @@
+<style>
+    #RPSB{
+        display: flex;
+        justify-content: center;
+            }
+    button{
+        size: 500 px;
+    }
+    .output{
+        justify-content: center;
+        box-shadow: 3px;
+    }
+#Yscore{
+    size: 10px;
+    justify-content: center;
+}
+#Cscore{
+    size: 10px;
+    justify-content: center;
+}
+#Cdial{
+    size: 10px;
+    justify-content: center;
+}
+</style>
+<!DOCTYPE html>
+<html>
+    <body>
+        <script src="RPS.JS"></script>
+        <div id="RPSB"><button onclick="play('Rock')">Rock</button>
+        <button onclick="play('Paper')">Paper</button>
+        <button onclick="play('Scissors')">Scissors</button>
+    <button onclick="play('anything')">
+        fire
+    </button></div>
+    <div class="output">
+        
+    
+    <p id="Yscore">Your Score: 0</p>
+    <p id="Cscore">Computer Score: 0</p>
+<p id="Cdial"></p></div>
+    </body>
+</html>
